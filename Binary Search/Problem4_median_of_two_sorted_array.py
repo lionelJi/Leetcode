@@ -32,6 +32,7 @@ class Solution:
 
         return (c_left + c_right) / 2
 
+
 s = Solution()
 print(s.findMedianSortedArrays([-1,1,3,5,7,9], [2,4,6,8,10,12,14]))
 print(s.findMedianSortedArrays([-1,1,3,5,7,9], [2,4,6,8,10,12,14,16]))
