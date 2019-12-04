@@ -14,6 +14,7 @@ class Solution:
         return [-1, -1]
 
     def two_sum_answer(self, nums, target):
+        # one-pass hash, 不用将整个list转为set，只需要向空set中加入没匹配成对的元素就好
         h = {}
         for i, num in enumerate(nums):
             n = target - num
