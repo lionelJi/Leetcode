@@ -9,3 +9,7 @@ s = Solution()
 l = ["h","e","l","l","o"]
 s.reverseString(l)
 print(l)
+
+l = ["h","e","l","l","o","w","o","r","l","d"]
+s.reverseString(l)
+print(l)
